@@ -64,3 +64,4 @@ $routes->get('registrarse', 'UsuarioController::registrarse'); // ruta para acce
 $routes->post('registro', 'UsuarioController::registro'); // ruta para rescatar los datos del formulario de registro
 $routes->get('entrar', 'UsuarioController::index');// ruta para acceder ala vista de iniciar sesion
 $routes->post('iniciar', 'UsuarioController::iniciar'); //rata para rescartar los datos del fomulario  de inicio de sesion
+$routes->get('CreatePdf', 'PdfController::index');

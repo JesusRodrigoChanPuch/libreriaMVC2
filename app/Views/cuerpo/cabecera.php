@@ -30,6 +30,8 @@
                         <a class="dropdown-item" href="<?= base_url('agregar') ?>">Agregar</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="<?= base_url('eliminar') ?>">Editar o Eliminar</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="<?= base_url('CreatePdf') ?>">Generar Reporte</a>
                     </div>
                 </li><?php } ?>
             <li class="nav-item active">

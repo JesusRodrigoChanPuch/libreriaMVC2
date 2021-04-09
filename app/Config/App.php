@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://localhost/ibreria/';
+	public $baseURL = 'http://localhost/mpdf/';
 
 	/**
 	 * --------------------------------------------------------------------------
